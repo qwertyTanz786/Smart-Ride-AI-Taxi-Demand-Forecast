@@ -1,8 +1,8 @@
-# Dubai Smart Mobility Demand Prediction 🚖
+# Smart Mobility Demand Prediction 🚖
 
 ## Project Overview
 
-This project predicts **Taxi Demand** in Dubai using machine learning.
+This project predicts **Taxi Demand** using machine learning.
 
 The goal is to help ride-hailing companies, taxi operators, and city planners anticipate transportation demand based on:
 
@@ -13,7 +13,7 @@ The goal is to help ride-hailing companies, taxi operators, and city planners an
 * Customer behavior
 * Temporal features
 
-The model is trained using the **Dubai Smart Mobility Dataset** and uses **XGBoost Regressor** to forecast taxi demand.
+The model is trained using the **Smart Mobility Dataset** and uses **XGBoost Regressor** to forecast taxi demand.
 
 ---
 
@@ -31,7 +31,7 @@ Predicting taxi demand accurately can help:
 
 # Dataset Information
 
-Dataset: `Dubai_Smart_Mobility_1M_Cleaned.csv`
+Dataset: `Smart_Mobility_1M_Cleaned.csv`
 
 Target Variable:
 
@@ -225,4 +225,4 @@ Tanishq Panchal
 
 Machine Learning Engineer Portfolio Project
 
-Dubai Smart Mobility Demand Prediction
+Smart Mobility Demand Prediction
