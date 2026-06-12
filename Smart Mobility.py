@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score,classification_report
 from xgboost import XGBRegressor
-df = pd.read_csv(r"C:\Portfolio-ML\Datasets\Dubai_Smart_Mobility_1M_Cleaned.csv")
+df = pd.read_csv("Smart_Mobility_1M_Cleaned.csv")
 df['Date'] = pd.to_datetime(df['Date'],dayfirst=True)
 df['Day'] = df['Date'].dt.day
 df['WeekOfYear'] = df['Date'].dt.isocalendar().week.astype(int)
