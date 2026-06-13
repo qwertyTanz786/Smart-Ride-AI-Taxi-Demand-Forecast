@@ -162,17 +162,27 @@ R² measures how much variance in Taxi Demand is explained by the model.
 
 ---
 
-# Results
-
-## Model Performance
-
-Prediction: 258.4009
-R2 Score: 0.941375732421875
-Train Score: 0.9436690807342529
-Test Score: 0.941375732421875
-Predicted: 258.4009
-Actual: 257
-
+# Output
+============================================================
+           SMART RIDE AI RESULT CARD
+============================================================
+Predicted Taxi Demand     : 253.07
+Actual Taxi Demand        : 257
+Demand Category           : PEAK
+Recommended Surge Pricing : 2.0x
+------------------------------------------------------------
+Recommended Fleet Allocation
+------------------------------------------------------------
+Sedan Drivers : 126
+SUV Drivers : 75
+Luxury Drivers : 50
+============================================================
+MODEL PERFORMANCE
+------------------------------------------------------------
+R2 Score : 0.9472
+Train Score               : 0.9499
+Test Score                : 0.9472
+============================================================
 # Project Workflow
 
 ```text
